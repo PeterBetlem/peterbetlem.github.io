@@ -11,6 +11,7 @@
   },
   "work": [
     { "name": "Norwegian Geotechnical Institute (NGI)", "position": "Researcher, Energy Geomechanics and Geophysics section", "location": "Oslo, Norway", "startDate": "2024-06" },
+    { "name": "University Centre in Svalbard (UNIS)", "position": "Adjunct Associate Professor (20%)", "location": "Svalbard, Norway", "startDate": "2027-01" },
     { "name": "University of Oslo", "position": "Researcher", "location": "Oslo, Norway", "startDate": "2024-01", "endDate": "2024-06" },
     { "name": "University Centre in Svalbard (UNIS)", "position": "Researcher", "location": "Svalbard, Norway", "startDate": "2024-01", "endDate": "2024-06" },
     { "name": "University Centre in Svalbard (UNIS)", "position": "Course and guest lecturer", "location": "Svalbard, Norway", "startDate": "2018", "endDate": "2025" },
@@ -28,11 +29,11 @@
     { "title": "Nigel Anstey Award", "date": "2023", "awarder": "European Association of Geoscientists & Engineers", "summary": "Best paper published in First Break in 2022 for Digitising Svalbard's Geology: the Festningen Digital Outcrop Model." },
     { "title": "Best paper award", "date": "2020", "awarder": "Norwegian CCS Research Centre", "summary": "For Demonstrating the potential of CO2 hydrate self-sealing in Svalbard, Arctic Norway." },
     { "title": "Best poster award", "date": "2017", "awarder": "Bubbles 2017 Summer Training School, Norwegian Centre of Excellence for Arctic Gas Hydrate, Environment and Climate" },
-    { "title": "Future Arctic Energy Network scholarship", "date": "2017-2018", "awarder": "Reykjavik University" },
-    { "title": "Gold medal", "date": "2010", "awarder": "International Conference of Young Scientists, Bali, Indonesia", "summary": "Listed in the CV as an International Conference of Young Scientists 2012 award." }
+    { "title": "Future Arctic Energy Network scholarship", "date": "2017", "startDate": "2017", "endDate": "2018", "awarder": "Reykjavik University" },
+    { "title": "Gold medal", "date": "2010", "awarder": "International Conference of Young Scientists, Bali, Indonesia", "summary": " International Conference of Young Scientists 2012 award." }
   ],
   "certificates": [
-    { "name": "University Pedagogy Program", "date": "2022-2024", "issuer": "University Centre in Svalbard (UNIS)", "summary": "200-hour program covering course and program design and ethical, respectful student research supervision." }
+    { "name": "University Pedagogy Program", "date": "2024", "startDate": "2022", "endDate": "2024", "issuer": "University Centre in Svalbard (UNIS)", "summary": "200-hour program covering course and program design and ethical, respectful student research supervision." }
   ],
   "publications": [
     { "name": "Permafrost trapped natural gas in Svalbard, Norway", "publisher": "Frontiers in Earth Science 11, 1277027", "releaseDate": "2023", "summary": "Birchall, T., Jochmann, M., Betlem, P., et al. 6 citations excluding self-citations; 16 citations total." },
@@ -49,8 +50,9 @@
   "interests": [],
   "references": [],
   "projects": [
-    { "name": "RockVision", "date": "2025 (submitted)", "summary": "Characterization of geomaterials for future energy needs and infrastructure upgrade.", "highlights": ["Co-PI", "Research Council of Norway (RCN)"] },
-    { "name": "ICEBREAKER", "date": "2025 (submitted)", "summary": "Integrating Permafrost Gas Hydrate Carbon in the European Arctic Knowledge Base.", "highlights": ["Secondary proponent", "COST Action #28300"] },
+    { "name": "RockVision", "date": "Not funded", "summary": "Characterization of geomaterials for future energy needs and infrastructure upgrade.", "highlights": ["Co-PI", "Research Council of Norway (RCN)"] },
+    { "name": "CryoGas", "startDate": "2027", "endDate": "2030", "summary": "", "highlights": ["PI", "Fripro; Research Council of Norway (RCN)"] },
+    { "name": "ICEBREAKER", "date": "Not funded", "summary": "Integrating Permafrost Gas Hydrate Carbon in the European Arctic Knowledge Base.", "highlights": ["Secondary proponent", "COST Action #28300"] },
     { "name": "miniCCS", "startDate": "2025", "endDate": "2028", "summary": "Decentralized, small-scale, local onshore CO2 storage in igneous rocks.", "highlights": ["WP lead for WP2: Pilot site characterisation and subsurface appraisal", "CLIMIT project #623394; 14.7 MNOK"] },
     { "name": "SP18: On Certain Ground", "startDate": "2025", "endDate": "2028", "summary": "Creating a smarter way to characterize, model, and quantify ground conditions.", "highlights": ["WP lead for WP5: Data integration and implementation", "Basic funding to NGI from RCN; 9 MNOK"] },
     { "name": "THERMESI", "startDate": "2024", "endDate": "2027", "summary": "Investigation of thermal effects on the reservoir-caprock interface through thermo-hydro-mechanical modelling and experiments.", "highlights": ["WP lead for WP1: Data integration", "CLIMIT project #623394; 17.5 MNOK"] },
