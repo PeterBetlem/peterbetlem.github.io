@@ -11,6 +11,18 @@ _styles: |
     list-style: none;
     padding: 0;
   }
+  .cv .date-column .badge {
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    min-width: 0 !important;
+    width: 100%;
+  }
+  .cv .date-column .location {
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    white-space: normal;
+  }
 toc:
   sidebar: left
 ---
