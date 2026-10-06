@@ -3,7 +3,6 @@
     "name": "Peter Betlem",
     "label": "Researcher",
     "image": "",
-    "summary": "Researcher in energy geomechanics and geophysics with experience in subsurface energy, natural gas hydrates, carbon storage, fluid flow, and digital geoscience.",
     "profiles": [
       { "network": "ORCID", "username": "0000-0002-6017-9415", "url": "https://orcid.org/0000-0002-6017-9415" },
       { "network": "ResearchGate", "username": "Peter Betlem", "url": "https://www.researchgate.net/profile/Peter-Betlem" },
@@ -22,8 +21,8 @@
   "volunteer": [],
   "education": [
     { "institution": "University of Oslo", "location": "Oslo, Norway", "area": "Geoscience", "studyType": "PhD", "startDate": "2019", "endDate": "2023" },
-    { "institution": "Iceland School of Energy, Reykjavik University", "location": "Reykjavik, Iceland", "area": "Sustainable Energy", "studyType": "MSc", "endDate": "2018", "highlights": ["Graduated with honors"] },
-    { "institution": "Radboud University", "location": "Nijmegen, The Netherlands", "area": "Molecular Chemistry", "studyType": "MSc", "endDate": "2016", "highlights": ["Graduated cum laude"] }
+    { "institution": "Iceland School of Energy, Reykjavik University", "location": "Reykjavik, Iceland", "area": "Sustainable Energy", "studyType": "MSc", "startDate": "2016", "endDate": "2018", "highlights": ["Graduated with honors"] },
+    { "institution": "Radboud University", "location": "Nijmegen, The Netherlands", "area": "Molecular Chemistry", "studyType": "MSc", "startDate": "2014", "endDate": "2016", "highlights": ["Graduated cum laude"] }
   ],
   "awards": [
     { "title": "Nigel Anstey Award", "date": "2023", "awarder": "European Association of Geoscientists & Engineers", "summary": "Best paper published in First Break in 2022 for Digitising Svalbard's Geology: the Festningen Digital Outcrop Model." },
