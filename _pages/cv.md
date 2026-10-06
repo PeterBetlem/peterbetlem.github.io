@@ -11,21 +11,15 @@ _styles: |
     list-style: none;
     padding: 0;
   }
-  .cv .date-column .badge {
-    box-sizing: border-box;
-    display: inline-flex;
-    justify-content: center;
-    min-width: 0 !important;
-    width: 80%;
-    margin-inline: auto;
-  }
   .cv .date-column .location {
-    box-sizing: border-box;
-    width: 80%;
-    max-width: 80%;
-    margin-inline: auto;
+    max-width: 100%;
     overflow-wrap: anywhere;
     white-space: normal;
+  }
+  @media (min-width: 768px) {
+    .cv .date-column + .col-md-10 {
+      padding-left: 1.5rem;
+    }
   }
 toc:
   sidebar: left
