@@ -16,10 +16,14 @@ _styles: |
     display: inline-flex;
     justify-content: center;
     min-width: 0 !important;
-    width: 100%;
+    width: 80%;
+    margin-inline: auto;
   }
   .cv .date-column .location {
-    max-width: 100%;
+    box-sizing: border-box;
+    width: 80%;
+    max-width: 80%;
+    margin-inline: auto;
     overflow-wrap: anywhere;
     white-space: normal;
   }
