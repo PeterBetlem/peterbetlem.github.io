@@ -11,15 +11,14 @@ _styles: |
     list-style: none;
     padding: 0;
   }
+  .cv .date-column {
+    width: auto;
+    transform: none;
+  }
   .cv .date-column .location {
     max-width: 100%;
     overflow-wrap: anywhere;
     white-space: normal;
-  }
-  @media (min-width: 768px) {
-    .cv .date-column + .col-md-10 {
-      padding-left: 1.5rem;
-    }
   }
 toc:
   sidebar: left
