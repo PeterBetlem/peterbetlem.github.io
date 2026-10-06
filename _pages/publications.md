@@ -7,6 +7,30 @@ nav: true
 nav_order: 2
 chart:
   echarts: true
+_styles: |
+  .citation-overview {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 1.5rem;
+    align-items: stretch;
+  }
+  .citation-chart-column,
+  .citation-metrics {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .scholar-citation-chart {
+    flex: 1 1 auto;
+    min-height: 0;
+  }
+  .scholar-citation-chart .echarts {
+    height: 100%;
+    min-height: 0;
+  }
+  .citation-metrics .table {
+    width: 100%;
+  }
 ---
 
 <!-- _pages/publications.md -->
@@ -14,11 +38,15 @@ chart:
 <!-- Bibsearch Feature -->
 
 {% assign citation_years = site.data.scholar_citations | sort %}
-{% if citation_years.size > 0 %}
-## Citations by year
+{% assign scholar_metrics = site.data.scholar_metrics %}
+{% if citation_years.size > 0 or scholar_metrics %}
+<div class="citation-overview">
+  <div class="citation-chart-column">
+    {% if citation_years.size > 0 %}
 
-```echarts
-{
+
+<div class="scholar-citation-chart">
+<pre><code class="language-echarts">{
   "aria": { "enabled": true },
   "grid": { "left": 52, "right": 24, "top": 28, "bottom": 40 },
   "tooltip": { "trigger": "axis" },
@@ -40,10 +68,49 @@ chart:
     }
   ]
 }
-```
+</code></pre>
+</div>
+    {% endif %}
+  </div>
+
+  <div class="citation-metrics" id="scholar-statistics">
+    {% if scholar_metrics %}
+    <h4>Google Scholar</h4>
+    <table class="table table-sm">
+      <thead>
+        <tr>
+          <th scope="col"></th>
+          <th scope="col">All</th>
+          <th scope="col">Since 2021</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Citations</th>
+          <td>{{ scholar_metrics.citations.all }}</td>
+          <td>{{ scholar_metrics.citations.since_2021 }}</td>
+        </tr>
+        <tr>
+          <th scope="row">h-index</th>
+          <td>{{ scholar_metrics.h_index.all }}</td>
+          <td>{{ scholar_metrics.h_index.since_2021 }}</td>
+        </tr>
+        <tr>
+          <th scope="row">i10-index</th>
+          <td>{{ scholar_metrics.i10_index.all }}</td>
+          <td>{{ scholar_metrics.i10_index.since_2021 }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}" target="_blank" rel="noopener noreferrer">View Google Scholar profile</a>
+    {% endif %}
+  </div>
+</div>
 {% endif %}
 
+<div class="mt-5">
 {% include bib_search.liquid %}
+</div>
 
 <div class="publications">
 

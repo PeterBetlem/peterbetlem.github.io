@@ -688,6 +688,8 @@ jekyll_get_json:
     json: assets/json/resume.json # it can also be an url
   - data: scholar_citations
     json: https://raw.githubusercontent.com/PeterBetlem/Serpapi/main/GScholargraph.json
+  - data: scholar_metrics
+    json: https://raw.githubusercontent.com/PeterBetlem/Serpapi/main/GScholartable.json
 
 jsonresume:
   - basics
