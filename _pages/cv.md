@@ -7,12 +7,9 @@ nav_order: 5
 cv_pdf:
 cv_format: jsonresume # options: rendercv, jsonresume
 _styles: |
-  .cv .card .list-group-item .badge {
-    background-color: transparent !important;
-    color: var(--global-text-color) !important;
-    border-radius: 0;
+  .cv .card .list-group {
+    list-style: none;
     padding: 0;
-    font-size: 0.85rem;
   }
 toc:
   sidebar: left
