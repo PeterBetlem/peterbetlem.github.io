@@ -23,6 +23,9 @@ _styles: |
     flex: 1 1 auto;
     min-height: 0;
   }
+  .scholar-citation-chart > pre {
+    display: none;
+  }
   .scholar-citation-chart .echarts {
     height: 100%;
     min-height: 0;
